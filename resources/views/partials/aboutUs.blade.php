@@ -21,6 +21,7 @@
 		a {
 			color: rgb(169, 215, 255);
 			text-decoration: none;
+			font-size: 1.2rem;
 		}
 		ul li {
 			padding-right: 2rem;

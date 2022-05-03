@@ -20,10 +20,15 @@
 		a {
 			color: rgb(169, 215, 255);
 			text-decoration: none;
+			font-size: 1.2rem;
 		}
 		ul li {
-			padding-right: 2rem;
+			text-align: center;
+			margin-right: 2rem;
 			display: inline-block;
+		}
+		ul li.active {
+			border-bottom: 4px solid rgb(169, 215, 255);
 		}
 		main {
 			max-width: 1000px;
@@ -39,7 +44,7 @@
 		<nav>
 			<ul>
 				@foreach ($navLinks as $link)
-					<li>
+					<li class="{{ ($link['active']) ? 'active' : '' }}">
 						<a href="{{ route($link['route']) }}">
 							{{ $link['text'] }}
 						</a>

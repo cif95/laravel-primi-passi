@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Blog</title>
 	<!-- Fonts -->
-	
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -21,6 +21,7 @@
 		a {
 			color: rgb(169, 215, 255);
 			text-decoration: none;
+			font-size: 1.2rem;
 		}
 		ul li {
 			padding-right: 2rem;
