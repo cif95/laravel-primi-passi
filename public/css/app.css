@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(36, 36, 36);
+}
+
+a {
+  color: rgb(169, 215, 255);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+ul li {
+  text-align: center;
+  margin-right: 2rem;
+  display: inline-block;
+}
+
+ul li.active {
+  border-bottom: 4px solid rgb(169, 215, 255);
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
